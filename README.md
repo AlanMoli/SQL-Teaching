@@ -31,3 +31,31 @@ SELECT *
 FROM family_members
 WHERE num_books_read >= 180;
 ```
+
+### [Lesson 6: AND](https://www.sqlteaching.com/#!and)
+```SQL
+SELECT *
+FROM friends_of_pickles
+WHERE species = 'dog' AND height_cm < 45;
+```
+
+### [Lesson 7: OR](https://www.sqlteaching.com/#!or)
+```SQL
+SELECT *
+FROM friends_of_pickles
+WHERE species = 'dog' OR height_cm < 45;
+```
+
+### [Lesson 8: IN](https://www.sqlteaching.com/#!in)
+```SQL
+SELECT *
+FROM friends_of_pickles
+WHERE species NOT IN('cat', 'dog');
+```
+
+### [Lesson 9: DISTINCT](https://www.sqlteaching.com/#!distinct)
+```SQL
+SELECT DISTINCT SPECIES
+FROM friends_of_pickles
+WHERE height_cm > 50;
+```
