@@ -59,3 +59,30 @@ SELECT DISTINCT SPECIES
 FROM friends_of_pickles
 WHERE height_cm > 50;
 ```
+
+### [Lesson 10: ORDER BY](https://www.sqlteaching.com/#!order_by)
+```SQL
+SELECT *
+FROM friends_of_pickles
+ORDER BY height_cm DESC;
+```
+
+### [Lesson 11: LIMIT # of returned rows](https://www.sqlteaching.com/#!limit)
+```SQL
+SELECT *
+FROM friends_of_pickles
+ORDER BY height_cm DESC LIMIT 1;
+```
+
+### [Lesson 12: COUNT(*)](https://www.sqlteaching.com/#!count)
+```SQL
+SELECT COUNT(*)
+FROM friends_of_pickles;
+```
+
+### [Lesson 13: COUNT(*) ... WHERE](https://www.sqlteaching.com/#!count_where)
+```SQL
+SELECT COUNT(*)
+FROM friends_of_pickles
+WHERE species = 'dog';
+```
