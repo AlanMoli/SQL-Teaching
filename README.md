@@ -86,3 +86,21 @@ SELECT COUNT(*)
 FROM friends_of_pickles
 WHERE species = 'dog';
 ```
+
+### [Lesson 14: SUM](https://www.sqlteaching.com/#!sum)
+```SQL
+SELECT SUM(num_books_read)
+FROM family_members;
+```
+
+### [Lesson 15: AVG](https://www.sqlteaching.com/#!avg)
+```SQL
+SELECT AVG(num_books_read)
+FROM family_members;
+```
+
+### [Lesson 16: MAX and MIN](https://www.sqlteaching.com/#!max_min)
+```SQL
+SELECT MAX(num_books_read)
+FROM family_members;
+```
